@@ -97,7 +97,6 @@ RDEPENDS_${PN} = "\
     stereo-image-proc \
     random-numbers \
     shape-tools \
-    octomap-msgs \
     laser-geometry \
     map-msgs \
     diagnostic-aggregator \
@@ -112,26 +111,16 @@ RDEPENDS_${PN} = "\
     rosserial-python \
     rosserial-xbee \
     robot-state-publisher \
-    octomap \
     geometric-shapes \
     depth-image-proc \
     rgbd-launch \
     amcl \
-    base-local-planner \
-    carrot-planner \
     clear-costmap-recovery \
-    costmap-2d \
-    dwa-local-planner \
     fake-localization \
-    global-planner \
     map-server \
-    move-base-msgs \
-    move-slow-and-clear \
     nav-core \
-    navfn \
     rotate-recovery \
     voxel-grid \
-    octomap-ros \
     audio-common-msgs \
     camera-info-manager-py \
     depthimage-to-laserscan \
@@ -143,7 +132,6 @@ RDEPENDS_${PN} = "\
     joint-trajectory-controller \
     laser-assembler \
     laser-filters \
-    move-base \
     robot-pose-ekf \
     roslint \
     ros-pocketsphinx \
@@ -158,15 +146,12 @@ RDEPENDS_${PN} = "\
     ros-arduino-firmware \
     ros-arduino-msgs \
     ros-arduino-python \
-    frontier-exploration \
     hector-mapping \
     rosauth \
     rosapi \
     rosbridge-library \
     rosbridge-server \
     rosbridge-suite \
-    ar-track-alvar \
-    moveit-ros-planning \
 "
 
 # collada-parser and collada-urdf require collada-dom, which does not compile with gcc6.
